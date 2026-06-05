@@ -1,0 +1,43 @@
+Series,Break year,F-stat,p-value,n1,n2,Reject H₀,Significance
+CPI Inflation,2002,10.723,0.0,83,288,True,*** p<0.001
+CPI Inflation,2008,4.0786,0.0177,155,216,True,*   p<0.05
+CPI Inflation,2014,1.4212,0.2427,227,144,False,    n.s.
+CPI Inflation,2016,0.9437,0.3901,251,120,False,    n.s.
+CPI Inflation,2020,0.5109,0.6004,299,72,False,    n.s.
+CPI Inflation,2022,0.3563,0.7005,323,48,False,    n.s.
+USD/AOA Exchange Rate,2002,0.1307,0.8775,83,288,False,    n.s.
+USD/AOA Exchange Rate,2008,0.4527,0.6363,155,216,False,    n.s.
+USD/AOA Exchange Rate,2014,2.251,0.1067,227,144,False,    n.s.
+USD/AOA Exchange Rate,2016,3.4416,0.033,251,120,True,*   p<0.05
+USD/AOA Exchange Rate,2020,5.8224,0.0032,299,72,True,**  p<0.01
+USD/AOA Exchange Rate,2022,2.2015,0.1121,323,48,False,    n.s.
+Real Interest Rate,2002,1.7575,0.1739,83,288,False,    n.s.
+Real Interest Rate,2008,0.7137,0.4905,155,216,False,    n.s.
+Real Interest Rate,2014,0.0622,0.9397,227,144,False,    n.s.
+Real Interest Rate,2016,1.3681,0.2559,251,120,False,    n.s.
+Real Interest Rate,2020,0.1009,0.904,299,72,False,    n.s.
+Real Interest Rate,2022,0.5642,0.5693,323,48,False,    n.s.
+Brent Crude Oil,2002,1.8729,0.1551,83,288,False,    n.s.
+Brent Crude Oil,2008,1.8841,0.1534,155,216,False,    n.s.
+Brent Crude Oil,2014,2.5612,0.0786,227,144,False,    n.s.
+Brent Crude Oil,2016,1.4135,0.2446,251,120,False,    n.s.
+Brent Crude Oil,2020,0.6268,0.5349,299,72,False,    n.s.
+Brent Crude Oil,2022,0.5607,0.5713,323,48,False,    n.s.
+Natural Gas (EU),2002,1.3896,0.2505,83,288,False,    n.s.
+Natural Gas (EU),2008,2.3963,0.0925,155,216,False,    n.s.
+Natural Gas (EU),2014,2.3682,0.0951,227,144,False,    n.s.
+Natural Gas (EU),2016,2.6531,0.0718,251,120,False,    n.s.
+Natural Gas (EU),2020,5.5706,0.0041,299,72,True,**  p<0.01
+Natural Gas (EU),2022,12.6107,0.0,323,48,True,*** p<0.001
+Diamond Index,2002,1.0437,0.3533,67,286,False,    n.s.
+Diamond Index,2008,0.5814,0.5596,139,214,False,    n.s.
+Diamond Index,2014,0.5408,0.5828,211,142,False,    n.s.
+Diamond Index,2016,0.3782,0.6853,235,118,False,    n.s.
+Diamond Index,2020,0.0879,0.9158,283,70,False,    n.s.
+Diamond Index,2022,0.9674,0.3811,306,47,False,    n.s.
+Gold PPI,2002,1.0183,0.3622,83,288,False,    n.s.
+Gold PPI,2008,9.8573,0.0001,155,216,True,*** p<0.001
+Gold PPI,2014,18.7992,0.0,227,144,True,*** p<0.001
+Gold PPI,2016,18.5779,0.0,251,120,True,*** p<0.001
+Gold PPI,2020,23.1904,0.0,299,72,True,*** p<0.001
+Gold PPI,2022,26.3846,0.0,323,48,True,*** p<0.001
