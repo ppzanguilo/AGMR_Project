@@ -1,0 +1,19 @@
+Group,Cause,Effect,F_stat,p_value,alpha_bonf,Reject_H0
+Macroeconomic,CPI Inflation,USD/AOA Exchange Rate,0.0634,0.999,0.0083,False
+Macroeconomic,CPI Inflation,Real Interest Rate,3.3883,0.003,0.0083,True
+Macroeconomic,USD/AOA Exchange Rate,CPI Inflation,0.008,1.0,0.0083,False
+Macroeconomic,USD/AOA Exchange Rate,Real Interest Rate,0.046,0.9996,0.0083,False
+Macroeconomic,Real Interest Rate,CPI Inflation,2.4216,0.0267,0.0083,False
+Macroeconomic,Real Interest Rate,USD/AOA Exchange Rate,0.0355,0.9998,0.0083,False
+Commodity,Brent Crude Oil,Natural Gas (EU),8.1041,0.0,0.0042,True
+Commodity,Brent Crude Oil,Diamond Index,3.6312,0.0066,0.0042,False
+Commodity,Brent Crude Oil,Gold PPI,2.6955,0.0312,0.0042,False
+Commodity,Natural Gas (EU),Brent Crude Oil,1.8249,0.1241,0.0042,False
+Commodity,Natural Gas (EU),Diamond Index,5.4298,0.0003,0.0042,True
+Commodity,Natural Gas (EU),Gold PPI,1.1586,0.3294,0.0042,False
+Commodity,Diamond Index,Brent Crude Oil,1.2414,0.2935,0.0042,False
+Commodity,Diamond Index,Natural Gas (EU),2.7996,0.0263,0.0042,False
+Commodity,Diamond Index,Gold PPI,3.5438,0.0077,0.0042,False
+Commodity,Gold PPI,Brent Crude Oil,2.0362,0.0895,0.0042,False
+Commodity,Gold PPI,Natural Gas (EU),2.0055,0.0939,0.0042,False
+Commodity,Gold PPI,Diamond Index,0.7147,0.5825,0.0042,False

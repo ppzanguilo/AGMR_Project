@@ -1,0 +1,25 @@
+Direction,Cause,Cause_col,Effect,Effect_col,F_stat,p_value,alpha_bonf,Reject_H0
+Macro → Commodity,CPI Inflation,cpi_inflation_pct,Brent Oil,oil_brent_usd_bbl,0.2713,0.8461,0.05,False
+Macro → Commodity,CPI Inflation,cpi_inflation_pct,Natural Gas,nat_gas_usd_mmbtu,0.0915,0.9647,0.05,False
+Macro → Commodity,CPI Inflation,cpi_inflation_pct,Diamond,diamond_usd_carat,0.023,0.9953,0.05,False
+Macro → Commodity,CPI Inflation,cpi_inflation_pct,Gold PPI,gold_usd,0.2376,0.8701,0.05,False
+Macro → Commodity,USD/AOA,usd_aoa_monthly,Brent Oil,oil_brent_usd_bbl,0.0679,0.9769,0.05,False
+Macro → Commodity,USD/AOA,usd_aoa_monthly,Natural Gas,nat_gas_usd_mmbtu,4.169,0.0066,0.05,True
+Macro → Commodity,USD/AOA,usd_aoa_monthly,Diamond,diamond_usd_carat,0.7563,0.5195,0.05,False
+Macro → Commodity,USD/AOA,usd_aoa_monthly,Gold PPI,gold_usd,3.4444,0.0172,0.05,True
+Macro → Commodity,Real Interest Rate,real_interest_rate_monthly,Brent Oil,oil_brent_usd_bbl,1.4047,0.2417,0.05,False
+Macro → Commodity,Real Interest Rate,real_interest_rate_monthly,Natural Gas,nat_gas_usd_mmbtu,2.0753,0.1037,0.05,False
+Macro → Commodity,Real Interest Rate,real_interest_rate_monthly,Diamond,diamond_usd_carat,0.18,0.9099,0.05,False
+Macro → Commodity,Real Interest Rate,real_interest_rate_monthly,Gold PPI,gold_usd,0.6358,0.5925,0.05,False
+Commodity → Macro,Brent Oil,oil_brent_usd_bbl,CPI Inflation,cpi_inflation_pct,0.3111,0.8174,0.05,False
+Commodity → Macro,Brent Oil,oil_brent_usd_bbl,USD/AOA,usd_aoa_monthly,0.7054,0.5495,0.05,False
+Commodity → Macro,Brent Oil,oil_brent_usd_bbl,Real Interest Rate,real_interest_rate_monthly,1.3656,0.2536,0.05,False
+Commodity → Macro,Natural Gas,nat_gas_usd_mmbtu,CPI Inflation,cpi_inflation_pct,0.0905,0.9652,0.05,False
+Commodity → Macro,Natural Gas,nat_gas_usd_mmbtu,USD/AOA,usd_aoa_monthly,0.6378,0.5912,0.05,False
+Commodity → Macro,Natural Gas,nat_gas_usd_mmbtu,Real Interest Rate,real_interest_rate_monthly,0.8173,0.4852,0.05,False
+Commodity → Macro,Diamond,diamond_usd_carat,CPI Inflation,cpi_inflation_pct,0.2472,0.8633,0.05,False
+Commodity → Macro,Diamond,diamond_usd_carat,USD/AOA,usd_aoa_monthly,4.0869,0.0073,0.05,True
+Commodity → Macro,Diamond,diamond_usd_carat,Real Interest Rate,real_interest_rate_monthly,0.929,0.4271,0.05,False
+Commodity → Macro,Gold PPI,gold_usd,CPI Inflation,cpi_inflation_pct,0.1339,0.9398,0.05,False
+Commodity → Macro,Gold PPI,gold_usd,USD/AOA,usd_aoa_monthly,3.1084,0.0269,0.05,True
+Commodity → Macro,Gold PPI,gold_usd,Real Interest Rate,real_interest_rate_monthly,0.7411,0.5283,0.05,False
