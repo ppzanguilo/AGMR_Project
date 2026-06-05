@@ -1,0 +1,16 @@
+Series,Subsample,N,ADF stat (level),ADF p (level),ADF lags,ADF crit 5%,ADF decision,ADF stat (Δ),ADF p (Δ),KPSS stat (level),KPSS p (level),KPSS crit 5%,KPSS decision,I(d),Conclusion
+CPI Inflation,Full sample,372,-8.2166,0.0,11,-2.8696,Reject H₀,-6.9688,0.0,1.3184,0.01,0.463,Reject H₀,I(0),Inconclusive — check first differences
+CPI Inflation,Post-2002,276,-3.5559,0.0067,12,-2.8726,Reject H₀,-4.5562,0.0002,0.2501,0.1,0.463,Fail to reject H₀,I(0),Stationary
+CPI Inflation,Post-2014,144,-3.5106,0.0077,6,-2.8829,Reject H₀,-13.1351,0.0,0.0959,0.1,0.463,Fail to reject H₀,I(0),Stationary
+USD/AOA Exchange Rate,Full sample,372,-0.0195,0.9569,12,-2.8696,Fail to reject H₀,-4.3437,0.0004,2.2448,0.01,0.463,Reject H₀,I(1),Non-stationary
+USD/AOA Exchange Rate,Post-2014,144,-0.2765,0.9288,2,-2.8823,Fail to reject H₀,-6.916,0.0,1.5449,0.01,0.463,Reject H₀,I(1),Non-stationary
+Real Interest Rate,Full sample,372,-3.4395,0.0097,12,-2.8696,Reject H₀,-7.1427,0.0,1.1439,0.01,0.463,Reject H₀,I(0),Inconclusive — check first differences
+Real Interest Rate,Post-2014,144,-2.3467,0.1573,0,-2.882,Fail to reject H₀,-4.9784,0.0,0.4779,0.0466,0.463,Reject H₀,I(1),Non-stationary
+Brent Crude Oil,Full sample,372,-2.4876,0.1185,1,-2.8694,Fail to reject H₀,-13.3503,0.0,1.5757,0.01,0.463,Reject H₀,I(1),Non-stationary
+Brent Crude Oil,Post-2014,144,-2.8388,0.0529,1,-2.8821,Fail to reject H₀,-8.8153,0.0,0.2773,0.1,0.463,Fail to reject H₀,I(1),Inconclusive — check first differences
+Natural Gas (EU),Full sample,372,-3.3816,0.0116,12,-2.8696,Reject H₀,-5.766,0.0,1.0737,0.01,0.463,Reject H₀,I(0),Inconclusive — check first differences
+Natural Gas (EU),Post-2014,144,-2.3776,0.1482,12,-2.8839,Fail to reject H₀,-3.3337,0.0134,0.4119,0.072,0.463,Fail to reject H₀,I(1),Inconclusive — check first differences
+Diamond Index,Full sample,354,-2.1626,0.2201,2,-2.8698,Fail to reject H₀,-9.4277,0.0,1.65,0.01,0.463,Reject H₀,I(1),Non-stationary
+Diamond Index,Post-2014,142,-2.1368,0.23,2,-2.8826,Fail to reject H₀,-5.5123,0.0,0.1395,0.1,0.463,Fail to reject H₀,I(1),Inconclusive — check first differences
+Gold PPI,Full sample,372,2.9625,1.0,6,-2.8695,Fail to reject H₀,0.4051,0.9817,2.6954,0.01,0.463,Reject H₀,I(2)+,Non-stationary
+Gold PPI,Post-2014,144,5.0176,1.0,2,-2.8823,Fail to reject H₀,1.3649,0.9969,1.3291,0.01,0.463,Reject H₀,I(2)+,Non-stationary
