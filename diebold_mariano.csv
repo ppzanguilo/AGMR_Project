@@ -1,0 +1,25 @@
+Series,Model,Window,DM_stat,p_value,Reject_H0
+CPI Inflation,XGBoost,full_sample,-6.2636,0.0,True
+CPI Inflation,RandomForest,full_sample,-6.5653,0.0,True
+CPI Inflation,XGBoost,post_2014,-6.4688,0.0,True
+CPI Inflation,RandomForest,post_2014,-7.1697,0.0,True
+USD/AOA Exchange Rate,XGBoost,full_sample,-3.6636,0.0001,True
+USD/AOA Exchange Rate,RandomForest,full_sample,-2.0734,0.0191,True
+USD/AOA Exchange Rate,XGBoost,post_2014,-3.8042,0.0001,True
+USD/AOA Exchange Rate,RandomForest,post_2014,-2.1507,0.0157,True
+Brent Crude Oil,XGBoost,full_sample,-13.0042,0.0,True
+Brent Crude Oil,RandomForest,full_sample,-13.5121,0.0,True
+Brent Crude Oil,XGBoost,post_2014,-13.4693,0.0,True
+Brent Crude Oil,RandomForest,post_2014,-15.2169,0.0,True
+Natural Gas (EU),XGBoost,full_sample,-16.1769,0.0,True
+Natural Gas (EU),RandomForest,full_sample,-15.7405,0.0,True
+Natural Gas (EU),XGBoost,post_2014,-19.4495,0.0,True
+Natural Gas (EU),RandomForest,post_2014,-18.1023,0.0,True
+Diamond Index,XGBoost,full_sample,-9.7811,0.0,True
+Diamond Index,RandomForest,full_sample,-9.4196,0.0,True
+Diamond Index,XGBoost,post_2014,-7.1512,0.0,True
+Diamond Index,RandomForest,post_2014,-7.5177,0.0,True
+Gold PPI,XGBoost,full_sample,2.2374,0.9874,False
+Gold PPI,RandomForest,full_sample,1.6802,0.9535,False
+Gold PPI,XGBoost,post_2014,1.2095,0.8868,False
+Gold PPI,RandomForest,post_2014,2.1907,0.9858,False

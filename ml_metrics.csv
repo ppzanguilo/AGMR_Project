@@ -1,0 +1,29 @@
+Group,Series,Column,Model,Window,N_train,N_test,N_features,CV_score,MAPE,RMSE,MAE
+Macroeconomic,CPI Inflation,cpi_inflation_pct,XGBoost,full_sample,309,60,29,221.4698,19.2454,0.3134,0.2592
+Macroeconomic,CPI Inflation,cpi_inflation_pct,RandomForest,full_sample,309,60,29,132.6317,16.5194,0.2876,0.2438
+Macroeconomic,CPI Inflation,cpi_inflation_pct,XGBoost,post_2014,84,60,29,30.9608,23.3439,0.3774,0.324
+Macroeconomic,CPI Inflation,cpi_inflation_pct,RandomForest,post_2014,84,60,29,32.6246,20.1976,0.3204,0.2804
+Macroeconomic,USD/AOA Exchange Rate,usd_aoa_monthly,XGBoost,full_sample,301,60,29,28.3492,17.4633,178.4553,141.0657
+Macroeconomic,USD/AOA Exchange Rate,usd_aoa_monthly,RandomForest,full_sample,301,60,29,28.4316,22.6601,214.1574,176.1791
+Macroeconomic,USD/AOA Exchange Rate,usd_aoa_monthly,XGBoost,post_2014,84,60,29,15.6213,16.8206,174.8889,137.1672
+Macroeconomic,USD/AOA Exchange Rate,usd_aoa_monthly,RandomForest,post_2014,84,60,29,22.6563,22.7048,211.5286,175.3399
+Macroeconomic,Real Interest Rate,real_interest_rate_monthly,XGBoost,full_sample,300,60,29,317.4376,,3.8751,2.4615
+Macroeconomic,Real Interest Rate,real_interest_rate_monthly,RandomForest,full_sample,300,60,29,180.9494,,4.0666,2.8705
+Macroeconomic,Real Interest Rate,real_interest_rate_monthly,XGBoost,post_2014,84,60,29,168.1815,,7.0205,5.1924
+Macroeconomic,Real Interest Rate,real_interest_rate_monthly,RandomForest,post_2014,84,60,29,138.6407,,6.9859,4.8092
+Commodity,Brent Crude Oil,oil_brent_usd_bbl,XGBoost,full_sample,284,59,31,16.8853,8.4172,8.853,7.0146
+Commodity,Brent Crude Oil,oil_brent_usd_bbl,RandomForest,full_sample,284,59,31,15.7415,6.2317,6.1828,5.1098
+Commodity,Brent Crude Oil,oil_brent_usd_bbl,XGBoost,post_2014,82,59,31,20.5059,11.2561,12.071,9.5807
+Commodity,Brent Crude Oil,oil_brent_usd_bbl,RandomForest,post_2014,82,59,31,23.4258,7.6221,8.8421,6.5095
+Commodity,Natural Gas (EU),nat_gas_usd_mmbtu,XGBoost,full_sample,284,59,31,18.5845,25.9742,13.9534,7.4332
+Commodity,Natural Gas (EU),nat_gas_usd_mmbtu,RandomForest,full_sample,284,59,31,20.9254,24.8856,13.6059,7.1738
+Commodity,Natural Gas (EU),nat_gas_usd_mmbtu,XGBoost,post_2014,82,59,31,28.3552,36.2407,15.5949,9.3042
+Commodity,Natural Gas (EU),nat_gas_usd_mmbtu,RandomForest,post_2014,82,59,31,31.7244,37.4929,15.6141,9.4458
+Commodity,Diamond Index,diamond_usd_carat,XGBoost,full_sample,276,57,31,3.2183,2.2572,3.8056,2.6176
+Commodity,Diamond Index,diamond_usd_carat,RandomForest,full_sample,276,57,31,3.1572,1.882,3.093,2.1716
+Commodity,Diamond Index,diamond_usd_carat,XGBoost,post_2014,80,57,31,1.3643,3.5274,5.9544,4.0526
+Commodity,Diamond Index,diamond_usd_carat,RandomForest,post_2014,80,57,31,1.5286,3.1292,5.0541,3.5784
+Commodity,Gold PPI,gold_usd,XGBoost,full_sample,284,59,31,17.7517,16.956,787.4465,485.4451
+Commodity,Gold PPI,gold_usd,RandomForest,full_sample,284,59,31,19.1485,15.2948,748.5024,445.528
+Commodity,Gold PPI,gold_usd,XGBoost,post_2014,82,59,31,5.7372,14.0226,719.4781,414.9338
+Commodity,Gold PPI,gold_usd,RandomForest,post_2014,82,59,31,6.4704,16.7852,773.9958,479.4366
